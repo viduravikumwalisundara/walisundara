@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tutle Hatcheries  </title>
+    <link rel="stylesheet" type="text/css" href="./Styles/defaultstyle.css" />
+</head>
+<body>
+    <!-- ======================== Navigation Bar ===========================-->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Turtle Hatchery
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="./index.html" target="_blank">Home</a>
+          <a href="./Categories.html" target="_blank">Categories</a>
+          <a href="./Locations.html" target="_blank">Hikkaduwa</a>
+          <a href="./Kosgoda.html" target="_blank">Kosgoda</a>
+          <a href="./Bentota.html" target="_blank">Bentota</a>
+          <a href="./Threats.html" target="_blank">Threats</a>
+          <a href="./Donate.html" target="_blank">Donate</a>
+          
+        </div>
+      </div>
+      <!-- ======================== N̶a̶v̶i̶g̶a̶t̶i̶o̶n̶ ̶B̶a̶r̶ ===========================-->
+      <!-- ======================== Tile container ===========================-->
+      <div class="TextSpace">
+        <h3>Hikkaduwa Hatchery</h3>
+        <p>
+          <h4>Beginning</h4>
+          Situated a few kilometres north of the main Hikkaduwa town lies the Sea Turtle Hatchery 
+          and Rescue Centre, a centre with the aim of conserving some of the endangered species of 
+          turtles in the world. It is just one of many turtle hatcheries in the southern coast of the 
+          island. Initially starting as a community project to help protect the biodiversity of the 
+          southern coast, it is now a fully-fledged hatchery and rescue centre with dedicated teams 
+          that work round the clock to study, care and protect several turtle species.
+
+          <h4>Conservation Efforts</h4>
+          Presently, there are five species of turtles that are taken care of in the hatchery and 
+          rescue centre. Such species are the Olive Ridley Turtle, Leatherback Turtle, Loggerhead 
+          Turtle, Hawksbill Turtle, and Green Turtle. The facilities of the sea turtle hatchery and rescue 
+          centre are all state-of-the-art, complete with water tanks to care for newborn turtles, along with 
+          adult turtle species that have been rescued from the sea due to injuries. One of the more peculiar 
+          sights in the centre is the area in which the turtles lay their eggs, as they have distinct little
+           mounds of sand piled neatly between one another. Each of these mounds is monitored closely to 
+           calculate the hatching process of the turtle eggs.
+        </p>
+        <br>
+        <button onclick="visitPage();">Proceed to our next Location</button><br><br><a href="./BookNow.html"><button>Book Now</button></a>
+        <br>
+        <br>
+        <div class="SlideContainer">
+          <img class="mySlides" src="./Assets/download.jpeg">
+          <img class="mySlides" src="./Assets/sea-turtle-hatchery-hikkaduwa-700x500.jpg">
+          <img class="mySlides" src="./Assets/Turtle-Hatchery-5.jpg">
+          <img class="mySlides" src="./Assets/turtle-hatchery-hikkaduwa-1-700x500.jpg">
+        </div>
+        
+        <script>
+          var slideIndex = 0;
+          carousel();
+
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+
+            function visitPage(){
+            window.location='./Kosgoda.html';
+          }
+    </script>
+        </script>
+
+
+
+        
+      </div>
+
+      <section>
+        <div class="footer1">
+          <p>FOLLOW US ON</p>
+          <div class="imgt">
+            <img src="./Assets/facebook.png" alt="">
+            <img src="./Assets/twitter.png" alt="">
+            <img src="./Assets/instagram.png" alt="">
+            <img src="./Assets/whatsapp.png" alt="">
+            <img src="./Assets/social.png" alt="">
+          </div>
+        </div>
+      </section>
+     
+     
+
+
+</body>
+</html>

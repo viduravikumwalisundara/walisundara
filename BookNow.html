@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Ticket.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Turtle Hatchery
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+            <a href="./Locations.html" target="_blank">Hikkaduwa</a>
+            
+        </div>
+      </div>
+      <!-- ======================== N̶a̶v̶i̶g̶a̶t̶i̶o̶n̶ ̶B̶a̶r̶ ===========================-->
+      <!-- ======================== Tile container ===========================-->
+      <div class="Container">
+        <h1 class="con-title">Ticket Page</h1>
+      </div> 
+
+
+
+  
+    <div>
+        <h2>Dates</h2>
+        <input type="date" id="date">
+    </div>
+    <!-- Guests selection -->
+    <h2>Guests</h2>
+    <!-- SL Adult -->
+    <label for="slAdult"><span id="slan"></span>SL Adult:</label>
+    <input type="number" id="slAdult" min="0">
+
+    <!-- SL Child -->
+    <label for="slChild"><span id="slcn"></span>SL Child:</label>
+    <input type="number" id="slChild" min="0">
+
+    <!-- Foreigner Adult -->
+    <label for="foreignAdult"><span id="fan"></span>Foreigner Adult:</label>
+    <input type="number" id="foreignAdult" min="0">
+
+    <!-- Foreigner Child -->
+    <label for="foreignChild"><span id="fcn"></span>Foreigner Child:</label>
+    <input type="number" id="foreignChild" min="0">
+
+    <!-- Infant -->
+    <label for="infant"><span id="in"></span>Infant:</label>
+    <input type="number" id="infant" min="0">
+    <!-- Duration selection -->
+    <div>
+        <h2>Duration</h2>
+        <select id="duration">
+            <option value="07-08">07.00 am - 08.00 am</option>
+            <option value="08-09">08.00 am - 09.00 am</option>
+            <option value="09-10">09.00 am - 10.00 am</option>
+            <option value="10-11">10.00 am - 11.00 am</option>
+            <option value="11-12">11.00 am - 12.00 pm</option>
+            <option value="12-13">12.00 pm - 01.00 pm</option>
+            <option value="13-14">01.00 pm - 02.00 pm</option>
+            <option value="14-15">02.00 pm - 03.00 pm</option>
+            <option value="15-16">03.00 pm - 04.00 pm</option>
+            <option value="16-17">04.00 pm - 05.00 pm</option>
+            <option value="17-18">05.00 pm - 06.00 pm</option>
+        </select>
+    </div>
+    <!-- Pricing table (You should provide your actual pricing table) -->
+    <div>
+      
+       
+        <table>
+            <tr>
+                <th>Tickets</th>
+                <th>Charges</th>
+            </tr>
+            <!-- Pricing rows for different guest categories -->
+            <!-- ... -->
+        </table>
+    </div>
+    <!-- Summary table -->
+    <!-- Summary table -->
+<div id="ccc">
+    <table>
+      <tr>
+        <th>Date</th>
+        <td id="summaryDate">25/02/2023</td>
+      </tr>
+      <tr>
+        <th>Duration</th>
+        <td id="summaryDuration">07.00 am - 08.00 am</td>
+      </tr>
+      <tr>
+        <th>Foreign Adult</th>
+        <td id="summaryForeignAdult">0</td>
+      </tr>
+      <tr>
+        <th>Foreign Child</th>
+        <td id="summaryForeignChild">0</td>
+      </tr>
+      <tr>
+        <th>SL Adult</th>
+        <td id="summarySLAdult">0</td>
+      </tr>
+      <tr>
+        <th>SL Child</th>
+        <td id="summarySLChild">0</td>
+      </tr>
+      <tr>
+        <th>Infant</th>
+        <td id="summaryInfant">0</td>
+      </tr>
+      <tr>
+        <th>Total Payable</th>
+        <td id="summaryTotal">0</td>
+      </tr>
+    </table>
+  </div>
+  
+    <!-- Continue with purchase button -->
+    <div class="bb">
+        <a href="./Details.html"><button id="continueButton">Continue with purchase</button></a>
+    </div>
+    <script src="./Ticket.js"></script>
+</body>
+</html>

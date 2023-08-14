@@ -1,0 +1,144 @@
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+ 
+.Container{
+    text-align: center;
+  background-color: #187afa;
+  background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+height: 200px;
+display: flex;
+flex-flow: column;
+}
+.Container h1{
+  margin-top: 80px;
+  color: #fff;
+  font-size: 80px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+input[type="date"], input[type="number"], select {
+    background-color: #6dce98;
+    border: 1px solid #e6b412;
+    padding: 8px;
+    border-radius: 10px;
+    width: 30%;
+    margin:auto;
+    position: relative;
+    display: table;
+    margin-left: 2px;
+    
+  
+  }
+  
+  /* Add margin for spacing */
+  div > input[type="date"],
+  div > input[type="number"],
+  div > select {
+    margin-bottom: 10px;
+    color: black;
+    border: solid 3px black;
+  
+  }
+  
+
+  
+  /* Styles for summary table (on the right side, top-aligned) */
+  #ccc {
+    float: right;
+    width: 40%;
+    margin-top: -500px;
+    text-align: center;
+    align-items: center;
+    margin-left: 1000px;
+    left: 500px;
+
+  }
+  
+  /* Style the summary table */
+  #ccc table {
+    width: 100%;
+    margin-top:60px;
+ 
+
+  }
+  
+  #ccc th, #ccc td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    height: 40px;
+  
+ 
+   
+  }
+  
+  #ccc th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for the "Continue with purchase" button */
+  #continueButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #continueButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Adjust colors and styles as needed */

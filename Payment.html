@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tutle Hatcheries  </title>
+    <link rel="stylesheet" type="text/css" href="./Styles/2ndstyle.css" />
+</head>
+<body>
+    <!-- ======================== Navigation Bar ===========================-->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Turtle Hatchery
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+            <a href="./Locations.html" target="_blank">Hikkaduwa</a>
+           
+           
+        </div>
+      </div>
+      <!-- ======================== N̶a̶v̶i̶g̶a̶t̶i̶o̶n̶ ̶B̶a̶r̶ ===========================-->
+      <!-- ======================== Tile container ===========================-->
+      <div class="Container">
+        <h1 class="con-title">PAYMENT PAGE</h1>
+      </div> 
+
+      <section id="section-wrapper">
+        <div class="box-wrapper">
+            <div class="info-wrap">
+                <form action="#" method="POST">
+                    
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type="text" class="fname" id="cn" placeholder="Enter card number" onkeyup="cnumberValid()">
+                            <small id="cn-error"></small>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="lname" id="expd" placeholder="Enter expiry date" onkeyup="exdateValid()">
+                            <small id="exd-error"></small>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="lname" id="cvcc" placeholder="Enter CVC/CVV" onkeyup="cvccvvValid()">
+                            <small id="cvcc-error"></small>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="lname" id="noc" placeholder="Enter name on card" onkeyup="nocValid()">
+                            <small id="noc-error"></small>
+                        </div>
+                    </div>
+                </form>
+                <br>
+                <a href="./Confirmation.html"><button id="cwp-btn" disabled>Pay $100</button></a>
+            </div>
+            <div class="form-wrap">
+                <div id="ccc">
+                    <table>
+                      <tr>
+                        <th>Date</th>
+                        <td id="summaryDate">25/02/2023</td>
+                      </tr>
+                      <tr>
+                        <th>Duration</th>
+                        <td id="summaryDuration">07.00 am - 08.00 am</td>
+                      </tr>
+                      <tr>
+                        <th>Foreign Adult</th>
+                        <td id="summaryForeignAdult">0</td>
+                      </tr>
+                      <tr>
+                        <th>Foreign Child</th>
+                        <td id="summaryForeignChild">0</td>
+                      </tr>
+                      <tr>
+                        <th>SL Adult</th>
+                        <td id="summarySLAdult">0</td>
+                      </tr>
+                      <tr>
+                        <th>SL Child</th>
+                        <td id="summarySLChild">0</td>
+                      </tr>
+                      <tr>
+                        <th>Infant</th>
+                        <td id="summaryInfant">0</td>
+                      </tr>
+                      <tr>
+                        <th>Total Payable</th>
+                        <td id="summaryTotal">0</td>
+                      </tr>
+                    </table>
+                  </div>
+                    
+                
+            </div>
+        </div>
+    </section>
+    </div>
+  </div>
+    <div class="footer">
+      <p>FOLLOW US ON</p>
+      <div class="imgt">
+        <img src="./Assets/facebook.png" alt="">
+        <img src="./Assets/twitter.png" alt="">
+        <img src="./Assets/instagram.png" alt="">
+        <img src="./Assets/whatsapp.png" alt="">
+        <img src="./Assets/social.png" alt="">
+      </div>
+    </div>
+    <script src="./JS/Payment.js"></script>
+</body>
+</html>
